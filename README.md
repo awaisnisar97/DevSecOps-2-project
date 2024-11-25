@@ -40,6 +40,8 @@ This project involves the creation of a **DevSecOps pipeline** for deploying a N
    - The final application, resembling Netflix in design and functionality, is hosted on the cloud.  
    - Both the application and the Kubernetes cluster are monitored using **Prometheus** and **Grafana** to ensure reliability and scalability.
 
+<img width="644" alt="image" src="https://github.com/user-attachments/assets/3e74fbcf-b175-4f37-80b1-80cdb427ff67">
+
 ---
 
 ## Key Features  
