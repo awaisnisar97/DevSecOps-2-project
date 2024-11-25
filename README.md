@@ -1,4 +1,3 @@
-# DevSecOps-2-project
 # DevSecOps Pipeline for a Netflix-like Application  
 
 This project involves the creation of a **DevSecOps pipeline** for deploying a Netflix-like application on the cloud. The pipeline is designed to integrate containerization, security, automation, monitoring, and GitOps practices to ensure a streamlined, scalable, and secure deployment process. Below are the key steps and components of the project:
