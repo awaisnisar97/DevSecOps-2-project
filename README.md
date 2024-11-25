@@ -1,6 +1,6 @@
 # DevSecOps Pipeline for a Netflix-like Application  
 
-This project involves the creation of a **DevSecOps pipeline** for deploying a Netflix-like application on the cloud. The pipeline is designed to integrate containerization, security, automation, monitoring, and GitOps practices to ensure a streamlined, scalable, and secure deployment process. Below are the key steps and components of the project:
+This project involves the creation of a **DevSecOps pipeline** for deploying a Netflix-like application on the cloud. The pipeline is designed to integrate containerisation, security, automation, monitoring, and GitOps practices to ensure a streamlined, scalable, and secure deployment process. Below are the key steps and components of the project:
 
 ---
 
@@ -8,7 +8,7 @@ This project involves the creation of a **DevSecOps pipeline** for deploying a N
 
 1. **EC2 Instance Deployment**  
    - Launch an **AWS EC2 instance** to host the application locally during the initial testing phase.  
-   - The application is containerized using **Docker** to ensure consistent and portable deployments.  
+   - The application is containerised using **Docker** to ensure consistent and portable deployments.  
 
 2. **Integrating Security**  
    - Use **SonarQube** for static code analysis to identify vulnerabilities and maintain code quality.  
@@ -25,12 +25,12 @@ This project involves the creation of a **DevSecOps pipeline** for deploying a N
 4. **Monitoring and Observability**  
    - Implement **Prometheus** and **Grafana** for real-time monitoring and observability.  
      - **EC2 Instance Monitoring**: Track system metrics such as CPU utilization, memory usage, and network traffic.  
-     - **Jenkins Job Monitoring**: Visualize success/failure rates and identify pipeline bottlenecks.  
+     - **Jenkins Job Monitoring**: Visualise success/failure rates and identify pipeline bottlenecks.  
    - Alerts are configured for critical thresholds to ensure proactive responses.  
 
 5. **Deploying to Kubernetes**  
    - Use **Helm Charts** to simplify the deployment of Kubernetes clusters.  
-   - Deploy the containerized application onto the Kubernetes cluster for high availability and scalability.  
+   - Deploy the containerised application onto the Kubernetes cluster for high availability and scalability.  
 
 6. **GitOps with ArgoCD**  
    - Implement **ArgoCD** to automate and manage Kubernetes deployments using GitOps principles.  
@@ -51,7 +51,7 @@ This project involves the creation of a **DevSecOps pipeline** for deploying a N
 - **GitOps Workflow**: Ensure controlled and versioned application deployments using ArgoCD and Git repositories.  
 
 ## Technologies Used
-- **Docker**: For containerization of the application.
+- **Docker**: For containerisation of the application.
 - **AWS EC2**: To run the application locally during testing.
 - **Jenkins**: For CI/CD automation.
 - **Prometheus & Grafana**: For monitoring and observability.
